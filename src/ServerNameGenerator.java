@@ -7,8 +7,8 @@ public class ServerNameGenerator {
                 "bloody"};
         String[] nouns = {"whale", "tiger", "finger", "pencil", "sand", "mouse", "apple", "salt", "ball", "frog"};
 
-        Random Dice = new Random();
-        int n = Dice.nextInt(10);
+        Random name = new Random();
+        int n = name.nextInt(10);
         System.out.println("Your username is: " + adjectives[n] + "-" + nouns[n]);
 
 //        int randomElement = nouns[Math.random()*nouns.length];
