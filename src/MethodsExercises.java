@@ -7,8 +7,9 @@ public class MethodsExercises {
 //        multiplication(5, 5 );
 //        division(5, 5 );
 //        modulus(10, 2);
-//        getInteger(4, 10);
-        factorial();
+        getInteger(4, 10);
+//        factorial();
+
     }
 
     public static void addition(int x, int y){
@@ -58,10 +59,10 @@ public class MethodsExercises {
 
         if(answer.equals("yes")){
 
-            int fact = 1;
+            int sum = 1;
             for (int i = 1; i <= input; i++) {
-                fact = fact * i;
-                System.out.println(fact);
+                sum *= i;
+                System.out.println(sum);
             }
 //            System.out.println("factional is" + fact);
         }
