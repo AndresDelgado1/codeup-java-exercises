@@ -1,24 +1,48 @@
 public class Person {
 
     public static void main(String[] args){
-        Person a = new Person();
+       Person a = new Person("andres");
+       a.sayHello();
+       System.out.println("-----------------");
+//        Person person1 = new Person("John");
+//        Person person2 = new Person("John");
+//        System.out.println(person1.getName().equals(person2.getName()));
+//        System.out.println(person1 == person2);
+        System.out.println("-----------------");
+//        Person person1 = new Person("John");
+//        Person person2 = person1;
+//        System.out.println(person1 == person2);
+        System.out.println("-----------------");
+        Person person1 = new Person("John");
+        Person person2 = person1;
+        System.out.println(person1.getName());
+        System.out.println(person2.getName());
+        person2.setName("Jane");
+        System.out.println(person1.getName());
+        System.out.println(person2.getName());
     }
 
-    private String name;
+    private  String name;
 
-    public Person(){
 
-    }
-
-    public Person(String name){
-
+    public Person(String personName) {
+        name = personName;
     }
 
     public String getName(){
-        return this.name;
+//TODO: return the person's name
+        return name;
     }
 
     public void setName(String name){
+//TODO: change the name field to the passed value
         this.name = name;
     }
-}
+    public void sayHello(){
+//TODO: print a message to the console using the person's name
+        System.out.println("hello " + name);
+    }
+
+
+    }
+

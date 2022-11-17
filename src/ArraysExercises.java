@@ -17,7 +17,7 @@ public class ArraysExercises {
         friends[2] = new Person("Rajib");
         Person John = new Person("John");
         for(int i = 0; i < friends.length; i++){
-            System.out.println(friends[i].getName());
+//            System.out.println(friends[i].getName());
         }
 
     }
