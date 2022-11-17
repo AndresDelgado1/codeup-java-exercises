@@ -6,6 +6,10 @@ import java.util.Scanner;
 
 public class MoviesApplication {
     public static void main(String[] args) {
+       display();
+    }
+
+    public static Movie[] display() {
         System.out.println("What would you like to do?");
         System.out.println("0 - exit");
         System.out.println("1 - view all movies");
@@ -18,8 +22,10 @@ public class MoviesApplication {
         int userOption = sc.nextInt();
 
         if (userOption == 1) {
+
             for (int i = 0; i < MoviesArray.findAll().length; i++) {
                 System.out.println("Name: " + MoviesArray.findAll()[i].getName() + ", Category: " + MoviesArray.findAll()[i].getCategory());
+
             }
         } else if (userOption == 2) {
             for (int i = 0; i < MoviesArray.findAll().length; i++) {
@@ -45,6 +51,11 @@ public class MoviesApplication {
                     System.out.println("Name: " + MoviesArray.findAll()[i].getName() + ", Category: " + MoviesArray.findAll()[i].getCategory());
                 }
             }
+        } else {
+
+            System.out.println("You exited");
+            
         }
+        return display();
     }
 }
