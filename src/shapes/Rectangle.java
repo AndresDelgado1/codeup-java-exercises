@@ -10,8 +10,8 @@ public class Rectangle {
 
     public Rectangle(int rectangleLength, int rectangleWidth){
 
-        this.length = rectangleLength;
-        this.width = rectangleWidth;
+        length = rectangleLength;
+        width = rectangleWidth;
     }
 
     public int getArea(){
