@@ -7,8 +7,8 @@ public class MethodsExercises {
 //        multiplication(5, 5 );
 //        division(5, 5 );
 //        modulus(10, 2);
-        getInteger(4, 10);
-//        factorial();
+//        getInteger(4, 10);
+        factorial();
 
     }
 
