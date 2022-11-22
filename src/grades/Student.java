@@ -7,9 +7,13 @@ public class Student {
 
     private ArrayList<Integer> studentGrade;
 
-    public Student(String studentName, int studentGrade){
+//    public Student(String studentName, int studentGrade){
+//        this.studentName = studentName;
+//        this.studentGrade = new ArrayList<Integer>(studentGrade);
+//    }
+    public Student(String studentName){
         this.studentName = studentName;
-        this.studentGrade = new ArrayList<Integer>(studentGrade);
+
     }
 
 
