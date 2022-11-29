@@ -13,6 +13,7 @@ public class Student {
 //    }
     public Student(String studentName){
         this.studentName = studentName;
+        this.studentGrade = new ArrayList<>();
 
     }
 
