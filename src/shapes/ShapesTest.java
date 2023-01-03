@@ -11,6 +11,7 @@ public class ShapesTest {
         Rectangle box2 = new Square(5);
         System.out.println("Area of square is: " + box2.getArea() + " perimeter of square is: " + box2.getPerimeter());
 
-
+        Circle c = new Circle(4);
+        System.out.println(c.getArea() + " " + c.getCircumference());
     }
 }
