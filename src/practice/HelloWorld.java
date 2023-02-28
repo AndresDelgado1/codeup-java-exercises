@@ -8,10 +8,14 @@ public class HelloWorld {
         System.out.print(x);
 
         x = 1000;
-        System.out.print(x);
+        System.out.println(x);
 
-        System.out.println();
 
         int v = Integer.MIN_VALUE;
+
+
+
+        short myShort = Short.MAX_VALUE;
+        System.out.println(myShort + x);
     }
 }
