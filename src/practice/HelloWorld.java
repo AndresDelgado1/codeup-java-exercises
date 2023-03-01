@@ -17,5 +17,11 @@ public class HelloWorld {
 
         short myShort = Short.MAX_VALUE;
         System.out.println(myShort + x);
+
+
+
+        short myMinShort = Short.MIN_VALUE; int myMinInt = Integer.MIN_VALUE;
+        System.out.println(myMinInt);
+        System.out.println(myMinShort);
     }
 }
