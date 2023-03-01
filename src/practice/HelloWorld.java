@@ -23,5 +23,9 @@ public class HelloWorld {
         short myMinShort = Short.MIN_VALUE; int myMinInt = Integer.MIN_VALUE;
         System.out.println(myMinInt);
         System.out.println(myMinShort);
+
+        short newShort = (short) (myMinShort / 2);
+//        if you dont use (short) error occurs because it cant evaluate if number fits inside a short
+        System.out.println(newShort);
     }
 }
