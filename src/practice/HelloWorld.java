@@ -27,7 +27,7 @@ public class HelloWorld {
         System.out.println(myMinShort);
 
 
-
+        System.out.println(z);
 
 
 
