@@ -33,6 +33,9 @@ public class HelloWorld {
 
 
 
+
+
+
 //        -----------   CASTING ---------------
         short newShort = (short) (myMinShort / 2);
 //        if you dont use (short) error occurs because it cant evaluate if number fits inside a short
