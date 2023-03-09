@@ -47,5 +47,10 @@ public class HelloWorld {
 //        doubles are the default data type for decimal numbers
 //        *float myFloatNumber = 5.25;* this fails because the program is trying to fit a double into a float
         float myFloatNumber = 5.25f;
+
+
+        double numberOfPounds = 200d;
+        double convertedKilos = numberOfPounds * 0.453d;
+        System.out.println("converted kilos = " + convertedKilos);
     }
 }
