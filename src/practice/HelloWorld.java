@@ -68,5 +68,7 @@ public class HelloWorld {
 
         String myString = "This is a string";
         System.out.print("myString is equal to " + myString);
+
+        String numberString = "250.55";
     }
 }
