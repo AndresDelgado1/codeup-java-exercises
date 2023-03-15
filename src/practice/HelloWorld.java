@@ -76,5 +76,11 @@ public class HelloWorld {
         lastString = lastString + myint;
         System.out.println(lastString);
 
+
+        String myFirstName = "Andres";
+        String myLastName = "Delgado";
+        String myName = "My name is " + myFirstName + " " + myLastName;
+        System.out.println(myName);
+
     }
 }
