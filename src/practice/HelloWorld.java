@@ -70,5 +70,11 @@ public class HelloWorld {
         System.out.print("myString is equal to " + myString);
 
         String numberString = "250.55";
+
+        String lastString = "10";
+        int myint = 50;
+        lastString = lastString + myint;
+        System.out.println(lastString);
+
     }
 }
