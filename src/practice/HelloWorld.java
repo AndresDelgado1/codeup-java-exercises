@@ -52,5 +52,21 @@ public class HelloWorld {
         double numberOfPounds = 200d;
         double convertedKilos = numberOfPounds * 0.453d;
         System.out.println("converted kilos = " + convertedKilos);
+
+
+
+//--------------------------------char and booleans------------------------------
+        char myChar = 'D';
+
+        char mySimpleChar = '?';
+//        unicode is the code assigned to a specific character, below is the unicode for a question mark
+        char myUnicodechar = '\u003f';
+
+
+
+//--------------------------------Strings------------------------------
+
+        String myString = "This is a string";
+        System.out.print("myString is equal to " + myString);
     }
 }
