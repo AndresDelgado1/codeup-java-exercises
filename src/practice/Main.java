@@ -1,5 +1,5 @@
 package practice;
 
-public class main {
+public class Main {
 
 }
