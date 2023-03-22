@@ -94,7 +94,7 @@ public class HelloWorld {
 
 
 
-        String month = "April";
+        String month = "x";
         System.out.println(month + " is in the " + getQuarter(month) + " quarter");
     }
     public static String getQuarter(String month) {
@@ -113,7 +113,10 @@ public class HelloWorld {
         return switch (month) {
             case "January", "February", "March" -> "1st";
             case "April", "May", "June" -> "2nd";
-            default -> "bad";
+            default -> {
+                String badResponse = month + " is bad";
+                yield badResponse;
+            }
         };
     }
 
