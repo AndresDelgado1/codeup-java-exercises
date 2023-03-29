@@ -1,12 +1,33 @@
 package practice;
 
 public class Account {
+
+    public static void main(String[] args) {
+        Account bobsAccount = new Account();
+        bobsAccount.withdrawFunds(100.0);
+        bobsAccount.depositFunds(250);
+        bobsAccount.withdrawFunds(50);
+
+        Account andresAccount = new Account("12345", 200, "Andres", "andres@gmail.com", "713-222-222" );
+        System.out.println(andresAccount.getNumber());
+    }
     private String number;
     private double balance;
     private String customerName;
     private String customerEmail;
     private String customerPhone;
 
+    public Account() {
+        System.out.println("empty constructor called");
+    }
+
+    public Account(String number, double balance, String customerName, String customerEmail, String customerPhone) {
+        this.number = number;
+        this.balance = balance;
+        this.customerName = customerName;
+        this.customerEmail = customerEmail;
+        this.customerPhone = customerPhone;
+    }
 
 
     public void depositFunds(double depositAmount) {
