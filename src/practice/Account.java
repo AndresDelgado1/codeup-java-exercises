@@ -7,6 +7,21 @@ public class Account {
     private String customerEmail;
     private String customerPhone;
 
+
+
+    public void depositFunds(double depositAmount) {
+        System.out.println("deposit of $" + depositAmount + " made. New balance is $" + balance);
+    }
+
+    public void withdrawFunds(double withdrawalAmount) {
+        if (balance - withdrawalAmount < 0) {
+            System.out.println("insufficient funds! You only have $" + balance);
+        } else {
+            balance -= withdrawalAmount;
+            System.out.println("withrawal of $" + withdrawalAmount + " processed, Remaining balance = $" + balance);
+        }
+    }
+
     public String getNumber() {
         return number;
     }
