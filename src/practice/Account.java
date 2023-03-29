@@ -10,6 +10,7 @@ public class Account {
 
 
     public void depositFunds(double depositAmount) {
+        balance += depositAmount;
         System.out.println("deposit of $" + depositAmount + " made. New balance is $" + balance);
     }
 

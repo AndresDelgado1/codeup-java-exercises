@@ -16,6 +16,12 @@ public class Main {
         targa.setDoors(2);
         targa.setConvertible(false);
         targa.describeCar();
+
+
+        Account bobsAccount = new Account();
+        bobsAccount.withdrawFunds(100.0);
+        bobsAccount.depositFunds(250);
+        bobsAccount.withdrawFunds(50);
     }
 
 }
