@@ -5,6 +5,10 @@ public class Customer {
         Customer customer = new Customer("Andres", 1000, "email");
         System.out.println(customer.getEmail());
         System.out.println(customer.getName());
+
+//        this is a reference, this instance and the one above are both pointing to the same object in memory.
+//        printing "anotherCustomer" will print the same thing as "customer"
+        Customer anotherCustomer = customer;
     }
     private String name;
     private double creditLimit;
