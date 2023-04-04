@@ -7,6 +7,7 @@ public class Student {
                     switch (i){
                     case 1 -> "marry";
                     case 2 -> "Carol";
+                    case 3 -> "Tim";
                     default -> "Anonymous";
                     },
                     "05/11/1984",
@@ -25,5 +26,15 @@ public class Student {
         this.name = name;
         this.dateOfBirth = dateOfBirth;
         this.classList = classList;
+    }
+
+    @Override
+    public String toString() {
+        return "Student{" +
+                "id='" + id + '\'' +
+                ", name='" + name + '\'' +
+                ", dateOfBirth='" + dateOfBirth + '\'' +
+                ", classList='" + classList + '\'' +
+                '}';
     }
 }
