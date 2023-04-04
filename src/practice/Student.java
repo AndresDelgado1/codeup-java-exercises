@@ -3,7 +3,7 @@ package practice;
 public class Student {
     public static void main(String[] args) {
         for (int i = 1; i <= 5 ; i++){
-            Student s = new Student("1" + 1,
+            LPAStudent s = new LPAStudent("1" + 1,
                     switch (i){
                     case 1 -> "marry";
                     case 2 -> "Carol";
@@ -15,6 +15,11 @@ public class Student {
             System.out.println(s);
         }
 
+        Student pojoStudent = new Student ("s923006", "Ann", "05/11/1985", "java");
+        LPAStudent recordStudent = new LPAStudent ("s923007", "Bill", "05/11/1985", "java");
+
+        System.out.println(pojoStudent);
+        System.out.println(recordStudent);
     }
     private String id;
     private String name;
