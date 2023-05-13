@@ -20,6 +20,9 @@ public class Student {
 
         System.out.println(pojoStudent);
         System.out.println(recordStudent);
+
+        Student a = new Student("2", "Anders", "May 2, 1997", "Math");
+        a.toString();
     }
 
 
@@ -39,7 +42,7 @@ public class Student {
         this.classList = classList;
     }
 
-    @Override
+//    @Override
     public String toString() {
         return "Student{" +
                 "id='" + id + '\'' +
