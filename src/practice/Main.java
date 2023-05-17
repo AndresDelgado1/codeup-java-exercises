@@ -27,16 +27,26 @@ public class Main {
 //        bobsAccount.depositFunds(250);
 //        bobsAccount.withdrawFunds(50);
 
-        Main c = new Main();
-        c.helloWorld();
+//        Main c = new Main();
+//        c.helloWorld();
+//
+//    int[] numbers = {1, 2, 3};
+//    int sum = 0;
+//    for (int i = 0; i <= numbers.length; i++){
+//        sum += numbers[i];
+//    }
+//
+//        System.out.println(sum);
 
-    int[] numbers = {1, 2, 3};
-    int sum = 0;
-    for (int i = 0; i <= numbers.length; i++){
-        sum += numbers[i];
+
+
+        String[] animals = {"cats", "dogs", "fish"};
+        System.out.println(animals.length);
+        for (int i = 0; i <= animals.length; i++){
+            System.out.println(animals[i]);
+        }
     }
 
-        System.out.println(sum);
-    }
+
 
 }
