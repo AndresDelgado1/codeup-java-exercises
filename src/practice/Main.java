@@ -39,14 +39,22 @@ public class Main {
 //        System.out.println(sum);
 
 
-
         String[] animals = {"cats", "dogs", "fish"};
-        System.out.println(animals.length);
-        for (int i = 0; i <= animals.length; i++){
-            System.out.println(animals[i]);
+//        System.out.println(animals.length);
+        for (int i = 0; i <= animals.length; i++) {
+//            System.out.println(animals[i]);
         }
+
+
+        int[] numbers = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+        for (int i = 0; i <= numbers.length; i++) {
+            if (numbers[i] % 2 == 0) {
+                System.out.println(numbers[i] + " is an even number");
+            } else {
+                System.out.println(numbers[i] + " is an odd number");
+            }
+        }
+
+
     }
-
-
-
 }
