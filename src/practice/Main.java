@@ -30,15 +30,15 @@ public class Main {
 //        Main c = new Main();
 //        c.helloWorld();
 //
-    int[] numbers = {1, 2, 3};
-    int sum = 0;
-    for (int i = 0; i <= numbers.length; i++){
-//        if (sum % 2 == 0) {
-            sum += numbers[i];
-//        }
-    }
-
-        System.out.println(sum);
+//    int[] numbers = {1, 2, 3};
+//    int sum = 0;
+//    for (int i = 0; i <= numbers.length; i++){
+////        if (sum % 2 == 0) {
+//            sum += numbers[i];
+////        }
+//    }
+//
+//        System.out.println(sum);
 
 
 //        String[] animals = {"cats", "dogs", "fish"};
@@ -65,7 +65,11 @@ public class Main {
 
 
 
+        String[] languages = {"html", "css", "javascript", "java"};
 
+        for (String language : languages) {
+            System.out.println(language);
+        }
 
 
 
